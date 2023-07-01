@@ -10,6 +10,7 @@ $(document).keypress(function(){
     if(!start){
     $("h1").text("Level "+count);
     nextbutton();
+    start=true;
     }
 });
 
