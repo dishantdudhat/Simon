@@ -6,7 +6,7 @@ var user=[];
 var count=0;
 var start=false;
 
-$(document).keypress(function(){
+$("#level-title").click(function(){
     if(!start){
     $("h1").text("Level "+count);
     nextbutton();
