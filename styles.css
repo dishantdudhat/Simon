@@ -9,11 +9,6 @@ body {
   margin: 2% 5% 5%;
   color: #FEF2BF;
 }
-@media (max-width:900px) {
-  body{
-    margin-top: 10%;
-  }
-}
 .container {
   display: block;
   width: 100%;
