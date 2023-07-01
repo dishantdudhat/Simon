@@ -10,8 +10,8 @@ body {
   color: #FEF2BF;
 }
 @media (max-width:900px) {
-  #level-title{
-    margin: 5%;
+  body{
+    margin-top: 10%;
   }
 }
 .container {
