@@ -33,7 +33,7 @@ function checkans(){
 
      else {
         playaudio("wrong");
-        $("h1").text("Game Over, click for Restart");
+        $("h1").text("Game Over, click to Restart");
         $("body").addClass("game-over");
         setTimeout(function(){
             $("body").removeClass("game-over");
