@@ -5,7 +5,7 @@ body {
   #level-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
-    margin: 2% auto 5%;
+    margin: 2% 0px 5%;
     color: #FEF2BF;
     line-height: 40px;
   }
@@ -27,7 +27,7 @@ body {
 
   @media (max-width:550px) {
     #level-title{
-      margin: 50% auto 15%;
+      margin: 50% 0px 15%;
       font-size: 2rem;
     }
     .btn {
