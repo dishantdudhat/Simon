@@ -27,7 +27,7 @@ body {
 
   @media (max-width:550px) {
     #level-title{
-      margin: 50% 0px 15%;
+      margin: 40% 0px 25%;
       font-size: 2rem;
     }
     .btn {
