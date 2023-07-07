@@ -1,4 +1,4 @@
-body {
+body{
   text-align: center;
   background-color: #011F3F;
 }
@@ -9,6 +9,13 @@ body {
   margin: 2% 5% 5%;
   color: #FEF2BF;
 }
+
+@media (max-width:550px) {
+    #level-title{
+      margin: 35% 5% 5% 5%;
+    }
+}
+
 .container {
   display: block;
   width: 100%;
