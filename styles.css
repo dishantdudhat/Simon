@@ -5,7 +5,7 @@ body {
   #level-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
-    margin: 2% 5% 5%;
+    margin: 2% auto 5%;
     color: #FEF2BF;
     line-height: 40px;
   }
@@ -27,19 +27,28 @@ body {
 
   @media (max-width:550px) {
     #level-title{
-      margin: 50% 5% 5% 15%;
-      font-size: 1.5rem;
+      margin: 50% auto 15%;
+      font-size: 2rem;
     }
+    .btn {
+      margin: 10px;
+      display: inline-block;
+      height: 150px;
+      width: 150px;
+      border: 7px solid black;
+      border-radius: 20%;
+    }
+  }
+ @media (max-width:390px) {
     .btn {
       margin: 10px;
       display: inline-block;
       height: 100px;
       width: 100px;
-      border: 5px solid black;
+      border: 7px solid black;
       border-radius: 20%;
     }
   }
-
   
   .game-over {
     background-color: red;
